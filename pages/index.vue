@@ -1,5 +1,5 @@
 <script setup>
-const story = await useAsyncStoryblok('maxime', { // maxime is my own story that I created with simple text
+const story = await useAsyncStoryblok('about', { // Fetching the about story
 version: 'draft', // or 'published'
 });
 
